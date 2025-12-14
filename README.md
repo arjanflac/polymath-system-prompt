@@ -209,4 +209,3 @@ You can use this prompt in any LLM interface that accepts System Instructions (C
 ## 📜 License
 MIT License. Free to use, modify, and integrate into your own workflows.
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-```
