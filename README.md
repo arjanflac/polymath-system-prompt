@@ -1,6 +1,6 @@
 # Polymath System Prompt
 
-This is a "high-fidelity" system prompt designed to force LLMs into a "First Principles" thinking mode.
+This is a high-fidelity system prompt designed to force LLMs into a First Principles thinking mode.
 
 It prioritizes:
 - No conversational fluff.
