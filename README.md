@@ -2,12 +2,15 @@
 
 > **A high-fidelity cognitive architecture for LLMs, optimized for reasoning, nuance, and structured output.**
 
-## ⚡️ The Origin
-This prompt was originally engineered for a high-performance workflow in **Chorus**, a multi-LLM environment. With the sunsetting of Chorus, this cognitive architecture has been open-sourced to help power users replicate that level of density and logic in other tools (ChatGPT, Claude, Ollama, etc.).
+[**[Click here for the raw prompt text]**](https://raw.githubusercontent.com/arjanflac/polymath-system-prompt/main/prompt.md)
 
-## 🚀 The Difference
-Most system prompts tell an AI **what** to be (e.g., "You are a helpful assistant").
-The Polymath Protocol tells the AI **how** to think.
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+
+## Origin
+This prompt was originally engineered for high-performance, multi-LLM workflows. It has been open-sourced to help power users replicate a higher level of density and logic in tools like ChatGPT, Claude, and Ollama.
+
+## The Difference
+Most system prompts tell an AI **what** to be (e.g., "You are a helpful assistant"). The Polymath Protocol tells the AI **how** to think.
 
 It enforces:
 1.  **First Principles Thinking:** Breaking problems down to mechanisms, not just listing symptoms.
@@ -17,12 +20,12 @@ It enforces:
 
 ---
 
-## 🧪 The "A/B" Test
+## The A/B Test
 To demonstrate the difference in cognitive density, we tested both a standard model and the Polymath Prompt with the same query on **Gemini Pro**.
 
 **The Query:** *"I want to start a substack blog about music. Come up with a strategy."*
 
-### ❌ Before: Standard Model Response
+### Before: Standard Model Response
 *Generic advice, listicle format, cheerleader tone ("It's never too late!").*
 
 <details>
@@ -99,7 +102,7 @@ Once you do, offer:
 
 <br>
 
-### ✅ After: Polymath Prompt
+### After: Polymath Prompt
 *Structured frameworks, comparative tables, and specific economic strategy.*
 
 <details open>
@@ -194,18 +197,10 @@ Do not turn on paid subscriptions immediately. Use the following roadmap:
 
 ---
 
-## 🛠 Usage
-You can use this prompt in any LLM interface that accepts System Instructions (Custom Instructions).
+## Usage
 
-### 1. The Quickest Way
-[**Click here for the raw prompt text**](https://raw.githubusercontent.com/arjanflac/polymath-system-prompt/main/prompt.md). Copy it. Paste it.
-
-### 2. Supported Platforms
+### Supported Platforms
 *   **ChatGPT:** Settings -> Customize ChatGPT -> "How would you like ChatGPT to respond?"
-*   **Ollama / Local Models:** Create a `Modelfile`.
 *   **Claude (Workbench):** Paste into the "System Prompt" box.
+*   **Ollama / Local Models:** Create a `Modelfile`.
 *   **LM Studio / TypingMind:** Paste into the "System Instruction" field.
-
-## 📜 License
-MIT License. Free to use, modify, and integrate into your own workflows.
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
