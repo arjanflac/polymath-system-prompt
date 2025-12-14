@@ -4,8 +4,6 @@
 
 [**[Click here for the raw prompt text]**](https://raw.githubusercontent.com/arjanflac/polymath-system-prompt/main/prompt.md)
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-
 ## Origin
 This prompt was originally engineered for high-performance, multi-LLM workflows. It has been open-sourced to help power users replicate a higher level of density and logic in tools like ChatGPT, Claude, and Ollama.
 
@@ -204,3 +202,5 @@ Do not turn on paid subscriptions immediately. Use the following roadmap:
 *   **Claude (Workbench):** Paste into the "System Prompt" box.
 *   **Ollama / Local Models:** Create a `Modelfile`.
 *   **LM Studio / TypingMind:** Paste into the "System Instruction" field.
+
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
