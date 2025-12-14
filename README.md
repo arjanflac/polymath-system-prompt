@@ -154,4 +154,3 @@ Do not turn on paid subscriptions immediately. Use the following roadmap:
 [**Click here for the raw prompt text.**](prompt.md)
 *   **ChatGPT:** Paste into "Custom Instructions" (Bottom box).
 *   **Claude/TypingMind:** Paste into "System Prompt."
-*   **Cursor/VS Code:** Paste into `.cursorrules` or Project Instructions.
