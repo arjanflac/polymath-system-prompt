@@ -1,76 +1,109 @@
-# The Polymath Protocol: High-Fidelity System Prompt
+# Polymath System Prompt
 
-> **Archived from my *Chorus* multi-model workflow.**
+> **A high-fidelity cognitive architecture for LLMs, optimized for reasoning, nuance, and structured output.**
 
-Cognitive Architecture system prompt designed to force Large Language Models (LLMs) out of their default "conversational" mode and into a **First Principles** thinking mode.
+## ⚡️ The Origin
+This prompt was originally engineered for a high-performance workflow in **Chorus**, a multi-LLM environment. With the sunsetting of Chorus, this cognitive architecture has been open-sourced to help power users replicate that level of density and logic in other tools (ChatGPT, Claude, Ollama, etc.).
 
-It was originally developed to standardize output quality across different models (GPT, Claude, Gemini) within the *Chorus* app.
+## 🚀 The Difference
+Most system prompts tell an AI **what** to be (e.g., "You are a helpful assistant").
+The Polymath Protocol tells the AI **how** to think.
 
-## ⚡ The Problem
-Default LLMs are trained to be "helpful assistants." When asked for advice, they tend to:
-1.  **Platitudes:** Offer generic encouragement ("It's never too late!").
-2.  **Fluff:** Waste tokens on preambles ("That's a great question, here is a list...").
-3.  **Surface Level:** Regurgitate SEO-style listicles rather than expert nuance.
-
-## 🧠 The Solution (How it Works)
-The Polymath Protocol uses specific instruction sets to override these behaviors:
-*   **First Principles Thinking:** Breaks queries down to fundamental truths before generating.
-*   **The "Pro" Nuance:** Explicitly instructs the model to look for edge cases and "hidden variables."
-*   **Information Architecture:** Forces the use of **Tables**, **Bolding**, and **Headers** to increase information density.
+It enforces:
+1.  **First Principles Thinking:** Breaking problems down to mechanisms, not just listing symptoms.
+2.  **No Fluff:** Stripping away the "I hope this helps!" conversational filler.
+3.  **Structural Hierarchy:** Forcing the use of **Tables**, **Bolding**, and **Headers** to organize complex data.
+4.  **The "Pro" Nuance:** Prioritizing expert-level details (edge cases, specific economics) over generic advice.
 
 ---
 
 ## 🧪 The "A/B" Test
+To demonstrate the difference in cognitive density, we tested both a standard model and the Polymath Prompt with the same query on **Gemini Pro**.
 
-We tested this prompt on **Gemini 3 Pro Prview** with a subjective strategy question. The difference in logical structuring and actionable advice is immediate.
+**The Query:** *"I want to start a substack blog about music. Come up with a strategy."*
 
-**The Prompt:** *"I want to start a substack blog about music. come up with a strategy"*
+### ❌ Before: Standard Model Response
+*Generic advice, listicle format, cheerleader tone ("It's never too late!").*
 
 <details>
-<summary>❌ <strong>Click to see: Standard Model Response (The "Generic" Advice)</strong></summary>
+<summary><strong>Click to expand Standard Response</strong></summary>
 
-> *Note: This response is helpful but generic. It acts like a cheerleader and offers standard internet advice.*
-
-Starting a Substack about "music" is broad, so the key to success is narrowing your focus to a specific "angle" or "lens." General music reviews are saturated; readers today want curation, narrative, or specific expertise.
+Starting a Substack about "music" is broad, so the key to success is narrowing your focus to a specific "angle" or "lens." General music reviews are saturated; readers today want **curation, narrative, or specific expertise.**
 
 Here is a comprehensive strategy to launch and grow a successful music Substack in 2025.
 
-**Phase 1: Define Your "Blue Ocean" Angle**
-
+### Phase 1: Define Your "Blue Ocean" Angle
 Don't just write "reviews." Choose a specific format or constraint that makes your publication unique. Here are four high-potential concepts:
 
 *   **The "Micro-Genre" Historian:** Pick a very specific scene (e.g., "Japanese City Pop," "90s Midwest Emo," "UK Garage") and become the definitive archive for it.
-*   **The "Playlister" Plus:** Don’t just share a Spotify link. Write a 200-word blurb for every song explaining the context, the sample used, or why the bridge is genius.
-*   **The "Industry Decoder":** If you have a background in the business, write about the money and tech behind the music (e.g., "How touring economics actually work").
-*   **The "Contextualizer":** Connect music to something else—history, food, or mental health. Example: "Albums to cook Italian food to" or "The politics of 1970s punk."
+*   **The "Playlister" Plus:** Don’t just share a Spotify link. Write a 200-word blurb for *every* song explaining the context, the sample used, or why the bridge is genius.
+*   **The "Industry Decoder":** If you have a background in the business, write about the *money* and *tech* behind the music (e.g., "How touring economics actually work").
+*   **The "Contextualizer":** Connect music to something else—history, food, or mental health. Example: *"Albums to cook Italian food to"* or *"The politics of 1970s punk."*
 
-**Phase 2: Content Structure & Cadence**
-
+### Phase 2: Content Structure & Cadence
 Substack rewards consistency. You need a mix of "Free" content (to grow) and "Paid" content (to monetize later).
 
-*   **The "Weekly 1-2 Punch" Schedule:**
-    *   *Tuesday (Deep Dive - Long Form):* A 1,000-word essay, artist interview, or album retrospective. Goal: Authority and trust.
-    *   *Friday (The "Digest" - Short Form):* A curated list. "5 Songs You Need to Hear This Weekend" or "Best Music Journalism I Read This Week." Goal: Shareability and habit-building.
+**The "Weekly 1-2 Punch" Schedule:**
+*   **Tuesday (Deep Dive - Long Form):** A 1,000-word essay, artist interview, or album retrospective.
+    *   *Goal:* Authority and trust.
+*   **Friday (The "Digest" - Short Form):** A curated list. "5 Songs You Need to Hear This Weekend" or "Best Music Journalism I Read This Week."
+    *   *Goal:* Shareability and habit-building.
 
-**Phase 3: Growth Strategy (The "Network Effect")**
+**Key Feature to Use:** **Substack Audio/Podcast.**
+Substack allows you to embed audio players directly. Since you are writing about music, *include the music*.
+*   *Tip:* Use the "Voiceover" feature to read your posts aloud for commuters, or embed a Spotify/Apple Music track directly into the text so people can listen while they read.
 
+### Phase 3: Growth Strategy (The "Network Effect")
 Substack is different from a blog because of its internal recommendation network.
 
-*   **The "Notes" Strategy:** Use Substack Notes (their Twitter-like feed) to post short takes, share lyrics, or ask questions like "What is the best opening track of all time?" This drives traffic to your newsletter better than Twitter/X.
-*   **Recommendation Swaps:** Identify 5-10 other music Substacks with similar subscriber counts (even if they are small). DM or email them: "I love your newsletter on Jazz. I write about Funk. If you recommend my publication in your sidebar, I'll recommend yours."
+1.  **The "Notes" Strategy:** Use Substack Notes (their Twitter-like feed) to post short takes, share lyrics, or ask questions like "What is the best opening track of all time?" This drives traffic to your newsletter better than Twitter/X.
+2.  **Recommendation Swaps:** Identify 5-10 other music Substacks with similar subscriber counts (even if they are small). DM or email them: *"I love your newsletter on Jazz. I write about Funk. If you recommend my publication in your sidebar, I'll recommend yours."*
+3.  **Cross-Platform Funnel:**
+    *   **TikTok/Reels:** Post a 30-second clip of a song with text: *"The backstory of this song is insane - read the full story in my bio."*
+    *   **Reddit:** Find the subreddit for the specific genre you write about. Post your full article there (don't just drop a link). At the bottom, say *"If you liked this deep dive, I send one out every Tuesday here [Link]."*
 
-**Phase 4: Monetization (When to turn it on)**
+### Phase 4: The Launch Timeline (0 to 100 Subscribers)
 
-Do not turn on paid subscriptions until you have at least 500-1,000 free subscribers. You need a funnel first. Once you do, offer:
+*   **Week 1: The "Stockpile"**
+    *   Write 3 full posts before you launch. You don't want to be scrambling in week 2.
+    *   Set up your "About" page. This is the most important page—it must answer: "What will I get?" and "When will I get it?"
+
+*   **Week 2: The "Soft Launch"**
+    *   Publish your first post.
+    *   Email every friend and colleague personally (don't BCC). "I'm starting a music project about [Topic]. I'd love if you signed up."
+    *   *Goal:* 20-50 subscribers (Friends & Family).
+
+*   **Week 3: The "Network" Push**
+    *   Turn on "Recommendations" in your settings.
+    *   Engage in the comments sections of big music Substacks (like *The Honest Broker* or *Flow State*). Write thoughtful comments, not spam. People will click your profile and see your publication.
+
+*   **Week 4: The "Value" Post**
+    *   Publish a "Resource" post. Examples: *"The Ultimate Guide to Vinyl Collecting in 2025"* or *"A Flowchart to get into Radiohead."*
+    *   These are highly shareable and bring in strangers.
+
+### Phase 5: Monetization (When to turn it on)
+**Do not turn on paid subscriptions until you have at least 500-1,000 free subscribers.** You need a funnel first.
+
+Once you do, offer:
 *   **The "Vault":** Access to the full archive of past posts.
 *   **Community:** Paid-only comment threads or a Discord server where you discuss new albums together.
+*   **Curation:** A monthly "Deep Cuts" playlist that isn't available to free subscribers.
 
+### Summary Checklist
+1.  [ ] Pick a specific niche (not just "music reviews").
+2.  [ ] Commit to one essay and one roundup per week.
+3.  [ ] Write 3 posts before launching.
+4.  [ ] Use Substack Notes to find your first strangers.
+5.  [ ] Embed audio in every single post.
 </details>
 
-<details>
-<summary>✅ <strong>Click to see: Polymath Protocol Response (The "Expert" Strategy)</strong></summary>
+<br>
 
-> *Note: This response uses frameworks, tables, and specific economic psychology (e.g., "Pricing Psychology"). It drops the "cheerleader" tone for a "consultant" tone.*
+### ✅ After: Polymath Prompt
+*Structured frameworks, comparative tables, and specific economic strategy.*
+
+<details open>
+<summary><strong>Click to expand Polymath Response (Recommended)</strong></summary>
 
 ### Core Philosophy: The "Curator vs. Analyst" Dichotomy
 
@@ -144,13 +177,36 @@ Do not turn on paid subscriptions immediately. Use the following roadmap:
 *   **Standard:** $5/month is the floor.
 *   **Founder Tier:** $150/year. Offer a tangible benefit (e.g., a vinyl record, a 1-on-1 music consult, access to a private Discord). *Note: This tier often generates 30% of total revenue.*
 
+---
+
+### Execution Checklist: Day 1 to Day 30
+
+1.  **Name & Design:** One-word name or "The [Noun]." Clean, high-contrast logo. No musical notes in the logo (cliché).
+2.  **The "About" Page:** This is your sales page. Do not write a bio. Write a manifesto. Tell them what they will *learn* or *feel*, not who you are.
+3.  **Seed Content:** Launch with **3 posts** already published. No one subscribes to an empty archive.
+    *   *Post 1:* The Manifesto (Why this exists).
+    *   *Post 2:* A High-Effort Deep Dive (Proof of competence).
+    *   *Post 3:* A Curation List (Proof of taste).
+4.  **Import Audience:** Export contacts from Gmail/LinkedIn. Upload the CSV. Send one "opt-in" email (do not force subscribe).
+
+**Final Warning:** The music space is noisy. You win by being **analytical** about the art, or **fanatical** about the curation. The middle ground is death.
 </details>
 
 ---
 
-## Usage
+## 🛠 Usage
+You can use this prompt in any LLM interface that accepts System Instructions (Custom Instructions).
 
-### Option 1: Copy/Paste
-[**Click here for the raw prompt text.**](prompt.md)
-*   **ChatGPT:** Paste into "Custom Instructions" (Bottom box).
-*   **Claude/TypingMind:** Paste into "System Prompt."
+### 1. The Quickest Way
+[**Click here for the raw prompt text**](https://raw.githubusercontent.com/arjanflac/polymath-system-prompt/main/prompt.md). Copy it. Paste it.
+
+### 2. Supported Platforms
+*   **ChatGPT:** Settings -> Customize ChatGPT -> "How would you like ChatGPT to respond?"
+*   **Ollama / Local Models:** Create a `Modelfile`.
+*   **Claude (Workbench):** Paste into the "System Prompt" box.
+*   **LM Studio / TypingMind:** Paste into the "System Instruction" field.
+
+## 📜 License
+MIT License. Free to use, modify, and integrate into your own workflows.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+```
