@@ -1,6 +1,6 @@
 # The Polymath Protocol: High-Fidelity System Prompt
 
-> **Archived from the *Chorus* multi-model workflow.**
+> **Archived from my *Chorus* multi-model workflow.**
 
 This repository hosts a "Cognitive Architecture" system prompt designed to force Large Language Models (LLMs) out of their default "conversational" mode and into a **First Principles** thinking mode.
 
