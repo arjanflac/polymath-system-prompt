@@ -22,7 +22,7 @@ The Polymath Protocol uses specific instruction sets to override these behaviors
 
 ## 🧪 The "A/B" Test
 
-We tested this prompt on **Gemini 1.5 Pro** with a subjective strategy question. The difference in logical structuring and actionable advice is immediate.
+We tested this prompt on **Gemini 3 Pro Prview** with a subjective strategy question. The difference in logical structuring and actionable advice is immediate.
 
 **The Prompt:** *"I want to start a substack blog about music. come up with a strategy"*
 
@@ -148,7 +148,7 @@ Do not turn on paid subscriptions immediately. Use the following roadmap:
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### Option 1: Copy/Paste
 [**Click here for the raw prompt text.**](prompt.md)
