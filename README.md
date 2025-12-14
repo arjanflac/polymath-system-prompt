@@ -2,9 +2,9 @@
 
 > **Archived from my *Chorus* multi-model workflow.**
 
-This repository hosts a "Cognitive Architecture" system prompt designed to force Large Language Models (LLMs) out of their default "conversational" mode and into a **First Principles** thinking mode.
+Cognitive Architecture system prompt designed to force Large Language Models (LLMs) out of their default "conversational" mode and into a **First Principles** thinking mode.
 
-It was originally developed to standardize output quality across different models (GPT-4, Claude 3.5, Gemini 1.5) within the *Chorus* app.
+It was originally developed to standardize output quality across different models (GPT, Claude, Gemini) within the *Chorus* app.
 
 ## ⚡ The Problem
 Default LLMs are trained to be "helpful assistants." When asked for advice, they tend to:
