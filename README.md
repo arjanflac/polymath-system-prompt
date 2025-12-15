@@ -5,7 +5,7 @@
 [**[Click here for the raw prompt text]**](https://raw.githubusercontent.com/arjanflac/polymath-system-prompt/main/prompt.md)
 
 ## Origin
-This prompt was originally engineered for high-performance, multi-LLM workflows. It has been open-sourced to help power users replicate a higher level of density and logic in tools like ChatGPT, Claude, and Ollama.
+This prompt was originally engineered for high-performance, multi-LLM workflows. Open-sourced to help power users replicate a higher level of density and logic in tools like ChatGPT, Claude, and Ollama.
 
 ## The Difference
 Most system prompts tell an AI **what** to be (e.g., "You are a helpful assistant"). The Polymath Protocol tells the AI **how** to think.
@@ -19,12 +19,12 @@ It enforces:
 ---
 
 ## The A/B Test
-To demonstrate the difference in cognitive density, we tested both a standard model and the Polymath Prompt with the same query on **Gemini Pro**.
+To demonstrate the difference in cognitive density, tested both a standard model and the Polymath Prompt with the same query on **Gemini Pro**.
 
 **The Query:** *"I want to start a substack blog about music. Come up with a strategy."*
 
 ### Before: Standard Model Response
-*Generic advice, listicle format, cheerleader tone ("It's never too late!").*
+*Generic advice, listicle format.*
 
 <details>
 <summary><strong>Click to expand Standard Response</strong></summary>
