@@ -195,12 +195,4 @@ Do not turn on paid subscriptions immediately. Use the following roadmap:
 
 ---
 
-## Usage
-
-### Supported Platforms
-*   **ChatGPT:** Settings -> Customize ChatGPT -> "How would you like ChatGPT to respond?"
-*   **Claude (Workbench):** Paste into the "System Prompt" box.
-*   **Ollama / Local Models:** Create a `Modelfile`.
-*   **LM Studio / TypingMind:** Paste into the "System Instruction" field.
-
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
