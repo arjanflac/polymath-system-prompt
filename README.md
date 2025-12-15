@@ -19,7 +19,7 @@ It enforces:
 ---
 
 ## The A/B Test
-To demonstrate the difference in cognitive density, tested both a standard model and the Polymath Prompt with the same query on **Gemini Pro**.
+To demonstrate the difference in cognitive density, tested both a standard model and the Polymath Prompt with the same query on **Gemini 3 Pro Preview**.
 
 **The Query:** *"I want to start a substack blog about music. Come up with a strategy."*
 
