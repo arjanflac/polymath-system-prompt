@@ -4,5 +4,4 @@
 
 [**[Click here for the raw prompt text]**](https://raw.githubusercontent.com/arjanflac/polymath-system-prompt/main/prompt.md)
 
-## Origin
-This prompt was originally engineered for high-performance, multi-LLM workflows.
+Originally engineered for high-performance, multi-LLM workflows.
